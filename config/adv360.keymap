@@ -66,6 +66,7 @@
                 &trans &trans &trans &trans &trans &trans                      &trans &trans                      &trans &trans &trans &trans  &trans  &trans
                 &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans               &trans &trans &trans  &trans  &trans
             >;
+        };
        fast_mouse {
             bindings = <
                 &trans &trans &trans &trans &trans &trans  &trans                                          &trans &trans &trans &trans &trans  &trans  &trans
