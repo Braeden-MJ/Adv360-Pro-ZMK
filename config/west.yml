@@ -4,6 +4,23 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: refil
       url-base: https://github.com/refil
+  proje:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+  self:
+    path: config
+
+
+#Kinesis fork zmk build
+<#
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: refil
+      url-base: https://github.com/refil
   projects:
     - name: zmk
       remote: refil
@@ -11,3 +28,4 @@ manifest:
       import: app/west.yml
   self:
     path: config
+#>
