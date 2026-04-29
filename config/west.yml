@@ -1,20 +1,3 @@
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: refil
-      url-base: https://github.com/refil
-  projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-  self:
-    path: config
-
-
-#Kinesis fork zmk build
-
 #manifest:
 #  remotes:
 #    - name: zmkfirmware
@@ -23,9 +6,26 @@ manifest:
 #      url-base: https://github.com/refil
 #  projects:
 #    - name: zmk
-#      remote: refil
-#      revision: adv360-z3.5-2
+#      remote: zmkfirmware
+#      revision: v0.3
 #      import: app/west.yml
 #  self:
 #    path: config
+
+
+#Kinesis fork zmk build
+
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: refil
+      url-base: https://github.com/refil
+  projects:
+    - name: zmk
+      remote: refil
+      revision: adv360-z3.5-2
+      import: app/west.yml
+  self:
+    path: config
 
