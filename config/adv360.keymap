@@ -76,7 +76,16 @@
                 &trans &trans &trans &trans &trans &trans                      &trans &trans                      &trans &trans &trans &trans  &trans  &trans
                 &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans               &trans &trans &trans  &trans  &trans
             >; 
-        }; 
+        };
+        fast_scroll {
+            bindings = <
+                &trans &trans &trans &trans &trans &trans  &trans                                          &trans &trans &trans &trans &trans  &trans  &trans
+                &trans &trans &trans &trans &trans &trans  &trans                                          &trans &trans &trans &trans &trans  &trans  &trans
+                &trans &trans &trans &trans &trans &trans  &trans        &trans &trans &trans &trans       &trans &trans &trans &trans &trans  &trans  &trans
+                &trans &trans &trans &trans &trans &trans                      &trans &trans                      &trans &trans &trans &trans  &trans  &trans
+                &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans               &trans &trans &trans  &trans  &trans
+            >; 
+        }
     };
 };
 
