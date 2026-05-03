@@ -93,7 +93,7 @@
   };
 };
 
-/*
+
 / { 
   input_processors {
     zip_wheel_scaler: zip_wheel_scaler {
@@ -112,7 +112,6 @@
     input-processors = <&zip_wheel_scaler 2 1>;
   };
 };
-*/ 
 
 &mmv {
     time-to-max-speed-ms = <0>;
