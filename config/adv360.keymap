@@ -81,6 +81,12 @@
 };
 
 
+&mmv {
+    time-to-max-speed-ms = <0>;
+    acceleration-exponent = <0>;
+    trigger-period-ms = <1>;
+};
+
 &mmv_input_listener {
   input-processors = <&zip_xy_scaler 1 1>;
   slow {
@@ -93,7 +99,14 @@
   };
 };
 
+&msc {
+    x-input-code = <INPUT_REL_HWHEEL>;
+    y-input-code = <INPUT_REL_WHEEL>;
+    time-to-max-speed-ms = <0>;
+    acceleration-exponent = <0>;
+};
 
+/*
 / { 
   input_processors {
     zip_wheel_scaler: zip_wheel_scaler {
@@ -112,16 +125,6 @@
     input-processors = <&zip_wheel_scaler 2 1>;
   };
 };
+*/
 
-&mmv {
-    time-to-max-speed-ms = <0>;
-    acceleration-exponent = <0>;
-    trigger-period-ms = <1>;
-};
 
-&msc {
-    x-input-code = <INPUT_REL_HWHEEL>;
-    y-input-code = <INPUT_REL_WHEEL>;
-    time-to-max-speed-ms = <0>;
-    acceleration-exponent = <0>;
-};
