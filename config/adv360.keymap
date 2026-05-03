@@ -98,7 +98,7 @@
   input-processors = <&zip_xy_scaler 3 1>; 
   };
 };
-
+/*
 &msc {
     x-input-code = <INPUT_REL_HWHEEL>;
     y-input-code = <INPUT_REL_WHEEL>;
@@ -106,7 +106,7 @@
     acceleration-exponent = <0>;
 };
 
-/*
+
 / { 
   input_processors {
     zip_wheel_scaler: zip_wheel_scaler {
