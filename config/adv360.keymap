@@ -84,7 +84,7 @@
 &mmv {
     time-to-max-speed-ms = <0>;
     acceleration-exponent = <0>;
-    trigger-period-ms = <1>;
+    trigger-period-ms = <7>;
 };
 
 &mmv_input_listener {
