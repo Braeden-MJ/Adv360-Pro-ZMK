@@ -95,7 +95,7 @@
   };
   fast {
     layers = <6>;
-  input-processors = <&zip_xy_scaler 4 1>; 
+  input-processors = <&zip_xy_scaler 7 2>; 
   };
 };
 /*
